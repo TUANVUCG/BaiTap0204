@@ -5,9 +5,9 @@ public class bai1 {
         Scanner number = new Scanner(System.in);
         System.out.println("Enter a number : ");
         double a = number.nextDouble();
-        if(a>0){
+        if (a > 0) {
             System.out.println("This is integer");
-        }else if(a<0){
+        } else if (a < 0) {
             System.out.println("This is negative integer");
         }
     }

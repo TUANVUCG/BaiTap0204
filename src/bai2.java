@@ -20,7 +20,7 @@ public class bai2 {
             } else {
                 System.out.println(word[a / 10] + " mươi " + word[a % 10]);
             }
-        }else if (a >= 100 && a <= 999) {
+        } else if (a >= 100 && a <= 999) {
             if (a % 100 < 10) {
                 System.out.println(word[a / 100] + " trăm linh " + word[a % 100]);
             } else if (a % 100 == 10) {
